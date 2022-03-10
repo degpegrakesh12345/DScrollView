@@ -3,14 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18ADB24827DA4EED009B8A47 /* DScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ADB24727DA4EED009B8A47 /* DScrollView.swift */; };
+		18ADB24A27DA50D4009B8A47 /* DScrollView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ADB24927DA50D4009B8A47 /* DScrollView+.swift */; };
+		18ADB24C27DA50FD009B8A47 /* DScrollViewElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ADB24B27DA50FD009B8A47 /* DScrollViewElement.swift */; };
+		18ADB24E27DA511D009B8A47 /* DScrollViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ADB24D27DA511D009B8A47 /* DScrollViewContainer.swift */; };
+		18ADB26327DA72F1009B8A47 /* CustomKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ADB26227DA72F1009B8A47 /* CustomKeyboard.swift */; };
 		201CB93BA8257BAB680EE3F1FA2AB96D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		27F2DB549FD2F5E96717D571B4A9ADE3 /* Pods-DScrollView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87354FB8B7E867E6D20352678D2E24E8 /* Pods-DScrollView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		39039918BFCAE4BFE86F15E561CACA56 /* DScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2362790A478623D3725AEA0A26A70B6B /* DScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A1F4FEA6C525AD2D4591B80E9C3591E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7AAE330F33B8438263CED7896004A7 /* ReplaceMe.swift */; };
 		5736C353C02B676EB43B844D88AA7346 /* Pods-DScrollView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AB60EB85ABC6F250BDBFD63AF938C1 /* Pods-DScrollView_Example-dummy.m */; };
 		7574D1A163B5BAA34B352D6C18E3783E /* DScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C988ED7B729F1FC5C07CFB954F8CDAB2 /* DScrollView-dummy.m */; };
 		7F825972320797DDE5D100ABF3E7E43D /* Pods-DScrollView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2AEC53B5C8F7133ECB810D2654000D /* Pods-DScrollView_Tests-dummy.m */; };
@@ -37,15 +41,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BF5A80079812B61B26895FC6EDBEBCA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0BF5A80079812B61B26895FC6EDBEBCA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		18ADB24727DA4EED009B8A47 /* DScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DScrollView.swift; sourceTree = "<group>"; };
+		18ADB24927DA50D4009B8A47 /* DScrollView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DScrollView+.swift"; sourceTree = "<group>"; };
+		18ADB24B27DA50FD009B8A47 /* DScrollViewElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DScrollViewElement.swift; sourceTree = "<group>"; };
+		18ADB24D27DA511D009B8A47 /* DScrollViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DScrollViewContainer.swift; sourceTree = "<group>"; };
+		18ADB26227DA72F1009B8A47 /* CustomKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomKeyboard.swift; sourceTree = "<group>"; };
 		2000385F7FF817A6716D03C2F507E78F /* Pods-DScrollView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DScrollView_Example-Info.plist"; sourceTree = "<group>"; };
 		2362790A478623D3725AEA0A26A70B6B /* DScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DScrollView-umbrella.h"; sourceTree = "<group>"; };
-		2C7AAE330F33B8438263CED7896004A7 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = DScrollView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		2FE657E2FB2225B6975C1DBFBC469227 /* Pods-DScrollView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DScrollView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		30F8CE65E3E2594D394BFC3F8CADE94F /* Pods-DScrollView_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DScrollView_Example"; path = Pods_DScrollView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30F8CE65E3E2594D394BFC3F8CADE94F /* Pods_DScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DScrollView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		335CBF8BA88815FF6F863590D17EF7C1 /* DScrollView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DScrollView-Info.plist"; sourceTree = "<group>"; };
 		35D519DD576A1E9538885EE22A08FE3B /* Pods-DScrollView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DScrollView_Tests-Info.plist"; sourceTree = "<group>"; };
-		38F969F6642C4F88FDF171ADD13BFD20 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		38F969F6642C4F88FDF171ADD13BFD20 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3F2AEC53B5C8F7133ECB810D2654000D /* Pods-DScrollView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DScrollView_Tests-dummy.m"; sourceTree = "<group>"; };
 		42CA347FFEF90144BE3F0028BE912175 /* Pods-DScrollView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DScrollView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		47370BC6B19EC0336BF73D3CC95B09AB /* Pods-DScrollView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DScrollView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -59,16 +67,16 @@
 		88C01676A8BC4D763182E9C6F3BCBE65 /* Pods-DScrollView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DScrollView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8C800B09D9851ED218956DE0C76D2484 /* DScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DScrollView.debug.xcconfig; sourceTree = "<group>"; };
 		95AB60EB85ABC6F250BDBFD63AF938C1 /* Pods-DScrollView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DScrollView_Example-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A6119A3C359624FF85A1BBF679AE36CB /* Pods-DScrollView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DScrollView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		AED8F69F4899A8EEE3B394C1676C1F54 /* DScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DScrollView-prefix.pch"; sourceTree = "<group>"; };
 		C0A0DA9D6CBE132148E2B249ED2EE1F9 /* Pods-DScrollView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DScrollView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C6D7F9427D774A5F43A2CFCDAA917743 /* Pods-DScrollView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DScrollView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C988ED7B729F1FC5C07CFB954F8CDAB2 /* DScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DScrollView-dummy.m"; sourceTree = "<group>"; };
-		C9C6615DE16FC5A372E00B1FA425C7FA /* DScrollView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DScrollView; path = DScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C6615DE16FC5A372E00B1FA425C7FA /* DScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA21F48431F0A3062346E36BBB3D6DEA /* Pods-DScrollView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DScrollView_Example.modulemap"; sourceTree = "<group>"; };
-		EC425C3A1235115F922449C0AD087CE2 /* DScrollView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DScrollView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		EF1E0D214C7EED3AB9D2D9967AB00FB8 /* Pods-DScrollView_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DScrollView_Tests"; path = Pods_DScrollView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC425C3A1235115F922449C0AD087CE2 /* DScrollView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DScrollView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EF1E0D214C7EED3AB9D2D9967AB00FB8 /* Pods_DScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DScrollView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4E10BCE451A52DDA72139B74D1D20F0 /* DScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DScrollView.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,6 +108,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18ADB24427DA4DE0009B8A47 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				18ADB26227DA72F1009B8A47 /* CustomKeyboard.swift */,
+				18ADB24727DA4EED009B8A47 /* DScrollView.swift */,
+				18ADB24927DA50D4009B8A47 /* DScrollView+.swift */,
+				18ADB24B27DA50FD009B8A47 /* DScrollViewElement.swift */,
+				18ADB24D27DA511D009B8A47 /* DScrollViewContainer.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		1D044CB42CFC44A644B7520E0EAA2C2E /* Pods-DScrollView_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,9 +166,9 @@
 		61C5AD462C5C6CF9E28325A7055CA355 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C9C6615DE16FC5A372E00B1FA425C7FA /* DScrollView */,
-				30F8CE65E3E2594D394BFC3F8CADE94F /* Pods-DScrollView_Example */,
-				EF1E0D214C7EED3AB9D2D9967AB00FB8 /* Pods-DScrollView_Tests */,
+				C9C6615DE16FC5A372E00B1FA425C7FA /* DScrollView.framework */,
+				30F8CE65E3E2594D394BFC3F8CADE94F /* Pods_DScrollView_Example.framework */,
+				EF1E0D214C7EED3AB9D2D9967AB00FB8 /* Pods_DScrollView_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -171,7 +191,7 @@
 		AB93FF7C56EB7FC8269A34C27DE95E68 /* DScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				2C7AAE330F33B8438263CED7896004A7 /* ReplaceMe.swift */,
+				18ADB24427DA4DE0009B8A47 /* Source */,
 				529F86CB3FFAA252FCBE7E1A6CCAE13E /* Pod */,
 				7566822A0C84C526D041B110E7C4345A /* Support Files */,
 			);
@@ -269,7 +289,7 @@
 			);
 			name = "Pods-DScrollView_Tests";
 			productName = Pods_DScrollView_Tests;
-			productReference = EF1E0D214C7EED3AB9D2D9967AB00FB8 /* Pods-DScrollView_Tests */;
+			productReference = EF1E0D214C7EED3AB9D2D9967AB00FB8 /* Pods_DScrollView_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		3AEC87F3E3EB64F77A6D82CAE3093446 /* DScrollView */ = {
@@ -287,7 +307,7 @@
 			);
 			name = DScrollView;
 			productName = DScrollView;
-			productReference = C9C6615DE16FC5A372E00B1FA425C7FA /* DScrollView */;
+			productReference = C9C6615DE16FC5A372E00B1FA425C7FA /* DScrollView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F22084BFF9805EB5EA0A23F030039D99 /* Pods-DScrollView_Example */ = {
@@ -306,7 +326,7 @@
 			);
 			name = "Pods-DScrollView_Example";
 			productName = Pods_DScrollView_Example;
-			productReference = 30F8CE65E3E2594D394BFC3F8CADE94F /* Pods-DScrollView_Example */;
+			productReference = 30F8CE65E3E2594D394BFC3F8CADE94F /* Pods_DScrollView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -317,9 +337,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					3AEC87F3E3EB64F77A6D82CAE3093446 = {
+						LastSwiftMigration = 1320;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -383,8 +408,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18ADB24827DA4EED009B8A47 /* DScrollView.swift in Sources */,
+				18ADB24E27DA511D009B8A47 /* DScrollViewContainer.swift in Sources */,
+				18ADB24A27DA50D4009B8A47 /* DScrollView+.swift in Sources */,
+				18ADB26327DA72F1009B8A47 /* CustomKeyboard.swift in Sources */,
 				7574D1A163B5BAA34B352D6C18E3783E /* DScrollView-dummy.m in Sources */,
-				3A1F4FEA6C525AD2D4591B80E9C3591E /* ReplaceMe.swift in Sources */,
+				18ADB24C27DA50FD009B8A47 /* DScrollViewElement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,6 +602,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 619DB03170546F2771E4A3A604513BB4 /* DScrollView.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -585,6 +615,7 @@
 				INFOPLIST_FILE = "Target Support Files/DScrollView/DScrollView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/DScrollView/DScrollView.modulemap";
 				PRODUCT_MODULE_NAME = DScrollView;
@@ -688,8 +719,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -699,6 +729,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8C800B09D9851ED218956DE0C76D2484 /* DScrollView.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -711,6 +742,7 @@
 				INFOPLIST_FILE = "Target Support Files/DScrollView/DScrollView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/DScrollView/DScrollView.modulemap";
 				PRODUCT_MODULE_NAME = DScrollView;
@@ -718,6 +750,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";

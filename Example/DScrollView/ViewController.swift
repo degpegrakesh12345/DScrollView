@@ -7,18 +7,34 @@
 //
 
 import UIKit
-
+import DScrollView
+let lightBlue = UIColor(red:0.45, green:0.69, blue:0.95, alpha:1.00)
 class ViewController: UIViewController {
+    let scroll = DScrollView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        view.backgroundColor = UIColor.gray
+        
+        let log = CustomKeyboard()
+        print(log.printLog())
+//        example()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+    /// 例子
+//    private func example() {
+//        /// 文本框
+//        let textField = UITextField(frame: CGRect(x: 100, y: 120, width: 200, height: 35))
+//        textField.borderStyle = .roundedRect
+//        view.addSubview(textField)
+//
+//        /* -- CustomKeyboard --- */
+//        let keyboard = CustomKeyboard(view, field: textField)
+//        keyboard.keyboardStyle = .number
+//        keyboard.isEnableKeyboard = true
+//        keyboard.whetherHighlight = true
+//        keyboard.frame.size.height = 300
+//        keyboard.customDoneButton(title: "确定", titleColor: .white, theme: lightBlue, target: self, callback: nil)
+//        textField.becomeFirstResponder()
+//    }
 }
-
