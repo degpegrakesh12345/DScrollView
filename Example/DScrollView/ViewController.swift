@@ -10,8 +10,13 @@ import UIKit
 import DScrollView
 let lightBlue = UIColor(red:0.45, green:0.69, blue:0.95, alpha:1.00)
 class ViewController: UIViewController {
-    let scroll = DScrollView()
-
+   
+    let scrollView = DScrollView()
+    let scrollViewContainer = DScrollViewContainer(axis: .vertical, spacing: 10)
+    let scrollViewElement0 = DScrollViewElement(height: 1200, backgroundColor: .purple)
+    let scrollViewElement1 = DScrollViewElement(height: 500, backgroundColor: .purple)//.withBackground(image: #imageLiteral(resourceName: "icon.png"), contentMode: .scaleAspectFit)
+    
+    let label = UILabel()
     @IBOutlet weak var imgTest: UIImageView!
     
     override func viewDidLoad() {
@@ -21,6 +26,19 @@ class ViewController: UIViewController {
         imgTest.circleImageView(borderColor: .white, borderWidth: 2.3)
         let log = CustomKeyboard()
         print(log.printLog())
+        
+        view.backgroundColor = .white
+        label.text = "I am a label"
+        
+        view.addScrollView(scrollView,
+                           withSafeArea: .none,
+                           hasStatusBarCover: true,
+                           statusBarBackgroundColor: .white,
+                           container: scrollViewContainer,
+                           elements: scrollViewElement0, scrollViewElement1)
+        
+        scrollViewElement1.addSubview(label)
+        //label.centerInSuperview()
 //        example()
     }
     /// 例子

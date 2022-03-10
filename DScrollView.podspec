@@ -17,26 +17,33 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+s.description      = <<-DESC
+'DscrollView is an awesome pod aimed to make yor life easier around UIScrollViews.'
+                     DESC
 
-  s.homepage         = 'https://github.com/degpegrakesh12345/DScrollView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'degpegrakesh12345' => 'rakesh.kumar@degpeg.com' }
-  s.source           = { :git => 'https://github.com/degpegrakesh12345/DScrollView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+s.homepage         = 'https://github.com/degpegrakesh12345/DScrollView'
+# s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+s.license          = { :type => 'MIT', :file => 'LICENSE' }
+s.author           = { 'degpegrakesh12345' => 'rakesh.kumar@degpeg.com' }
+s.source           = { :git => 'https://github.com/degpegrakesh12345/DScrollView.git', :tag => s.version.to_s }
+#  s.social_media_url = 'https://youtube.com/rebeloper'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '12.0'
 
-  s.source_files = 'DScrollView/Source/**/*'
-  
-#   s.resource_bundles = {
-#     'DScrollView' => ['DScrollView/Assets/*.png']
-#   }
+  s.source_files = 'Source/**/*.swift'
+  s.swift_version = '5.0'
+  s.platforms = {
+      "ios": "12.0"
+  }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+# s.resource_bundles = {
+#   'DScrollView' => ['DScrollView/Assets/*.png']
+# }
+
+# s.public_header_files = 'Pod/Classes/**/*.h'
+# s.frameworks = 'UIKit', 'MapKit'
+# s.dependency 'AFNetworking', '~> 2.3'
+
+  s.dependency 'TinyConstraints', '~> 4.0.0'
 end
+

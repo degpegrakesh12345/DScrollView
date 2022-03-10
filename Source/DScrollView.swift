@@ -8,15 +8,12 @@
 import Foundation
 public class DScrollView: UIScrollView {
     
-   
-    
     public override init(frame: CGRect) {
         super.init(frame: frame)
         keyboardDismissMode = .interactive
     }
     
-    required init?(coder: NSCoder) {
+    required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
 }
