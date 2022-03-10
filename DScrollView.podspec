@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/acct<blob>=0xC2A072616B6573682E6B756D6172406465677065672E636F6D  0240rakesh.kumar@degpeg.com/DScrollView'
+  s.homepage         = 'https://github.com/degpegrakesh12345/DScrollView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'acct<blob>=0xC2A072616B6573682E6B756D6172406465677065672E636F6D  0240rakesh.kumar@degpeg.com' => 'rakesh.kumar@degpeg.com' }
-  s.source           = { :git => 'https://github.com/acct<blob>=0xC2A072616B6573682E6B756D6172406465677065672E636F6D  0240rakesh.kumar@degpeg.com/DScrollView.git', :tag => s.version.to_s }
+  s.author           = { 'degpegrakesh12345' => 'rakesh.kumar@degpeg.com' }
+  s.source           = { :git => 'https://github.com/degpegrakesh12345/DScrollView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
