@@ -28,10 +28,10 @@ s.author           = { 'degpegrakesh12345' => 'rakesh.kumar@degpeg.com' }
 s.source           = { :git => 'https://github.com/degpegrakesh12345/DScrollView.git', :tag => s.version.to_s }
 #  s.social_media_url = 'https://youtube.com/rebeloper'
 
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'Source/**/*.swift'
-  s.swift_version = '5.0'
+#  s.swift_version = '5.0'
   s.platforms = {
       "ios": "12.0"
   }
