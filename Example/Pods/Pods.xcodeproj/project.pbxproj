@@ -12,6 +12,7 @@
 		18ADB24C27DA50FD009B8A47 /* DScrollViewElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ADB24B27DA50FD009B8A47 /* DScrollViewElement.swift */; };
 		18ADB24E27DA511D009B8A47 /* DScrollViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ADB24D27DA511D009B8A47 /* DScrollViewContainer.swift */; };
 		18ADB26327DA72F1009B8A47 /* CustomKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ADB26227DA72F1009B8A47 /* CustomKeyboard.swift */; };
+		18ADB26527DA7DAA009B8A47 /* UImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ADB26427DA7DAA009B8A47 /* UImageExtension.swift */; };
 		201CB93BA8257BAB680EE3F1FA2AB96D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		27F2DB549FD2F5E96717D571B4A9ADE3 /* Pods-DScrollView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87354FB8B7E867E6D20352678D2E24E8 /* Pods-DScrollView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		39039918BFCAE4BFE86F15E561CACA56 /* DScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2362790A478623D3725AEA0A26A70B6B /* DScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -47,6 +48,7 @@
 		18ADB24B27DA50FD009B8A47 /* DScrollViewElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DScrollViewElement.swift; sourceTree = "<group>"; };
 		18ADB24D27DA511D009B8A47 /* DScrollViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DScrollViewContainer.swift; sourceTree = "<group>"; };
 		18ADB26227DA72F1009B8A47 /* CustomKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomKeyboard.swift; sourceTree = "<group>"; };
+		18ADB26427DA7DAA009B8A47 /* UImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UImageExtension.swift; sourceTree = "<group>"; };
 		2000385F7FF817A6716D03C2F507E78F /* Pods-DScrollView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DScrollView_Example-Info.plist"; sourceTree = "<group>"; };
 		2362790A478623D3725AEA0A26A70B6B /* DScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DScrollView-umbrella.h"; sourceTree = "<group>"; };
 		2FE657E2FB2225B6975C1DBFBC469227 /* Pods-DScrollView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DScrollView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				18ADB24927DA50D4009B8A47 /* DScrollView+.swift */,
 				18ADB24B27DA50FD009B8A47 /* DScrollViewElement.swift */,
 				18ADB24D27DA511D009B8A47 /* DScrollViewContainer.swift */,
+				18ADB26427DA7DAA009B8A47 /* UImageExtension.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -413,6 +416,7 @@
 				18ADB24A27DA50D4009B8A47 /* DScrollView+.swift in Sources */,
 				18ADB26327DA72F1009B8A47 /* CustomKeyboard.swift in Sources */,
 				7574D1A163B5BAA34B352D6C18E3783E /* DScrollView-dummy.m in Sources */,
+				18ADB26527DA7DAA009B8A47 /* UImageExtension.swift in Sources */,
 				18ADB24C27DA50FD009B8A47 /* DScrollViewElement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

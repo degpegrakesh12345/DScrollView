@@ -12,11 +12,13 @@ let lightBlue = UIColor(red:0.45, green:0.69, blue:0.95, alpha:1.00)
 class ViewController: UIViewController {
     let scroll = DScrollView()
 
+    @IBOutlet weak var imgTest: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         view.backgroundColor = UIColor.gray
-        
+        imgTest.circleImageView(borderColor: .white, borderWidth: 2.3)
         let log = CustomKeyboard()
         print(log.printLog())
 //        example()
